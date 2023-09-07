@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6, .logo {
   min-height: 100vh;
 }
 
+.pfp {
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -15,6 +19,7 @@ h1, h2, h3, h4, h5, h6, .logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  background-color: #012d32;
   min-height: 100vh;
 }
 

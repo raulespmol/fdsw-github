@@ -1,0 +1,14 @@
+{
+  "name": "fdsw-github",
+  "version": "1.0.0",
+  "description": "Quinto desafio para la carrera de Desarrollador Fullstack en Desafio Latam.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raul Espinoza M",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

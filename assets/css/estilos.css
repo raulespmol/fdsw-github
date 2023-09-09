@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5, h6, .logo {
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* Navbar */
+
+.logo:hover {
+  color: #08a2b4; 
+}
+
 /* Hero Section */
 
 #Hero-Section {
@@ -27,6 +33,12 @@ h1, h2, h3, h4, h5, h6, .logo {
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+
+/* About */
+
+#Acerca-de-mi i {
+  font-size: 4rem;
 }
 
 /* Mis trabajos */

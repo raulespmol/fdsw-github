@@ -12,6 +12,15 @@ h1, h2, h3, h4, h5, h6, .logo {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.card, .card-body, .btn {
+  border-radius: 0;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
 /* Navbar */
 
 .logo:hover {

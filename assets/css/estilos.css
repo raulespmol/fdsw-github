@@ -12,15 +12,6 @@ h1, h2, h3, h4, h5, h6, .logo {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.card, .card-body, .btn {
-  border-radius: 0;
-}
-
-.card {
-  border: none;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-}
-
 /* Navbar */
 
 .logo:hover {
@@ -59,11 +50,25 @@ h1, h2, h3, h4, h5, h6, .logo {
   background-position: center;
 }
 
+.card, .card-body, .btn {
+  border-radius: 0;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
+}
+
+#Contacto textarea {
+  min-height: 100px;
+  max-height: 300px;
 }
 
 @media (max-width: 768px) {

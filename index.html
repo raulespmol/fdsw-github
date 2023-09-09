@@ -30,10 +30,10 @@
                     <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#Contacto">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -70,8 +70,9 @@
 
         <h2 class="display-3 fw-bold my-4 text-secondary">Acerca de mi</h2>
 
-        <p class="my-5 fs-3">
+        <p class="my-5 fs-4">
             Me considero de aprendizaje rápido y en constante búsqueda de cosas nuevas. <br> 
+            Actualmente cursando el bootcamp de Desarrollo Fullstack JavaScript en la academia Desafío Latam. <br>
             Valoro y disfruto mucho de la naturaleza, mi mayor pasión es la fotografía de avifauna.
         </p>
 
@@ -115,6 +116,9 @@
         <h2 class="display-4 fw-bold text-center text-light mb-5">Mis trabajos</h2>
         <div class="container g-3">
             <div class="row">
+                <div class="col-12">
+                    <p class="mb-5 fs-4 text-light text-center">A lo largo del bootcamp debemos entregar un desafío semanal que refleje los conocimientos adquirido. <br> Aquí te presento algunos:</p>
+                </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
                     <div class="card h-100">
                         <div class="image-top" style="background-image: url(./assets/img/d2-landing.png)"></div>
@@ -136,39 +140,47 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card">
-                        <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
+                    <div class="card h-100">
+                        <div class="image-top" style="background-image: url(./assets/img/d3-flex.png)"></div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
+                            <h5 class="card-title fw-bold fs-3">Iguana</h5>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                                consequatur quos error fuga excepturi quo. Laudantium optio
-                                pariatur laboriosam modi, ea molestias?
+                                Desafío N°3: reconstruir un sitio basado en una maqueta de Adobe XD, utilizando flexbox y sus propiedades.
                             </p>
-                            <button type="button" class="btn btn-outline-secondary">
-                                Ver más
-                            </button>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-3">
+                                <i class="fa-brands fa-html5 fa-2x text-secondary"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x text-secondary"></i>
+                            </div>
+                            <a class="btn btn-outline-secondary" href="https://raulespmol.github.io/desafio-3-iguana/" target="_blank">
+                                Visitar
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card">
-                        <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
+                    <div class="card h-100">
+                        <div class="image-top" style="background-image: url(./assets/img/d4-bootstrap.png)"></div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Salmones de Alaska</h5>
+                            <h5 class="card-title fw-bold fs-3">Cuppon</h5>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                                corporis facilis qui architecto dolor, accusamus eveniet
-                                exercitationem fugit. Quod autem neque ducimus.
+                                Desafío N°4: construir un sitio de cupones de descuento, utilizando componentes y propiedades responsivas del framework Bootstrap.
                             </p>
-                            <button type="button" class="btn btn-outline-secondary">
-                                Ver más
-                            </button>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-3">
+                                <i class="fa-brands fa-html5 fa-2x text-secondary"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x text-secondary"></i>
+                                <i class="fa-brands fa-bootstrap fa-2x text-secondary"></i>
+                            </div>
+                            <a class="btn btn-outline-secondary" href="https://raulespmol.github.io/desafio-4-bootstrap/" target="_blank">
+                                Visitar
+                            </a>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -179,23 +191,23 @@
 
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
-
         <form>
-
-
             <div class="form-group mb-4">
                 <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
+                <input 
+                    type="text"
+                    class="form-control" 
+                    placeholder="Nombre"
+                />
             </div>
 
             <div class="form-group mb-4">
                 <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
+                <input 
+                    type="email" 
+                    class="form-control" 
+                    placeholder="Correo electrónico" 
+                />
             </div>
 
 
